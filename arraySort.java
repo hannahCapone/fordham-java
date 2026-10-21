@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class arraySort
 {
@@ -5,7 +6,8 @@ public class arraySort
 	{ 
 		// take input
 		System.out.print("Enter words to be sorted: ");
-		r 
+		Scanner scanner = new Scanner(System.in);
+		String input = scanner.nextLine();
 
 		// new line for formatting
         System.out.println("------------------------------------------------------");
